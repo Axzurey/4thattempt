@@ -23,23 +23,6 @@ function LoadWindowAsync() {
 
     Window.loadFile('./index.html')
 
-    let activated = true
-
-    let GameModeOn = false
-
-    const ToggleGameMode = () => {
-        GameModeOn = !GameModeOn
-    }
-    
-
-    const hide = () => {
-	
-	}
-
-    Window.on('close', (e) => {
-		hide()
-		e.preventDefault()
-	})
 }
 
 app.whenReady().then(LoadWindowAsync)
