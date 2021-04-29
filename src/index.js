@@ -21,7 +21,7 @@ function LoadWindowAsync() {
         darkTheme: true
     })
 
-    Window.loadFile('./index.html')
+    Window.loadFile('./src/index.html')
 
 }
 
